@@ -1,7 +1,7 @@
----
 version: '3'
 services:
   umami:
+    image: index.docker.io/pabloszx/umami
     build: .
     ports:
       - "3000:3000"
